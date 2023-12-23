@@ -660,7 +660,7 @@ main {
     font-size: 0.8rem;
 }
 
-.section-bottom-container a:hover {
+ #special-button:hover {
     background-color: #c79706;
 }
 
@@ -690,6 +690,10 @@ main {
     color: rgb(87, 153, 239);
     padding: 10px 10px;
     font-size: 1rem;
+}
+
+.section-bottom-container1 a:hover {
+    text-decoration: underline;
 }
 
 .section-bottom-container1 span {
