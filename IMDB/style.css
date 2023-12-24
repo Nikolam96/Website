@@ -208,7 +208,10 @@ nav {
     align-items: center;
     height: 36px;
     padding: 0 16px;
+}
 
+.nav-wacthlist a span {
+    font-weight: 400;
 }
 
 .nav-wacthlist img {
@@ -246,7 +249,10 @@ nav {
 .nav-en {
     display: flex;
     align-items: center;
+}
 
+.nav-en a span {
+    font-weight: 400;
 }
 
 .nav-en a {
@@ -286,6 +292,10 @@ main {
 .cast-crew {
     display: flex;
     align-items: center;
+}
+
+.cast-crew a span {
+    font-weight: 400;
 }
 
 .cast-crew a {
@@ -366,7 +376,7 @@ main {
 .header h1 {
     font-size: 3.2rem;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -403,7 +413,8 @@ main {
     margin-bottom: 4px;
     display: flex;
     justify-content: center;
-    font-size: 1rem;    
+    font-size: 1rem; 
+    font-weight: 400;
 }
     
 .star {
@@ -657,7 +668,7 @@ main {
 }
 
 .section-bottom-container a span{
-    font-weight: 100;
+    font-weight: 400;
     font-size: 0.8rem;
 }
 
@@ -1429,7 +1440,7 @@ main {
 
 .storyline-ul ul li span {
     display: inline-block;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .storyline-ul-li {
