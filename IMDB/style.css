@@ -684,6 +684,9 @@ main {
     width: 20px;
 }
 
+
+/*Last menu*/
+
 .section-bottom-container1 a{
     display: inline-block;
     text-decoration: none;
@@ -701,4 +704,393 @@ main {
     padding: 3px 4px;
     color: white;
     margin-right: 3px;
+}
+
+/* White menu  */
+
+.white-menu {
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+    background-color: white;
+}
+
+/* Left-menu */
+
+.white-menu-left {
+    width: 862px;
+}
+
+/* Awards */
+
+.menu-awards {
+    display: flex;
+    padding: 24px 0;
+}
+
+.menu-awards a{
+    width: 813px;
+    margin: 0 24px;
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid #DBA506;
+    border-radius: 7px;
+}
+
+.menu-awards a:hover{
+    background-color: rgba(204, 204, 204,0.1);
+}
+
+
+.menu-awards img {
+    width: 40px;
+    padding-right: 20px;
+}
+
+#arrow-right {
+    width: 15px;
+    padding-right: 12px;
+    padding-left: 463px;    
+}
+
+/* Videos header */
+
+.video-box-header {
+    display: flex;
+    padding: 0px 13px;
+    margin:24px;
+    border-left: 5px solid #DBA506;
+    align-items: center;
+}
+
+.video-box-header:hover strong {
+    color: rgba(84, 83, 83, 0.9);
+    cursor: pointer;
+}
+
+.video-box-header strong {
+    font-size: 1.8rem;
+    padding-right: 12px;
+}
+
+.video-box-header span {
+    font-size: 1rem;
+    color: rgba(84, 83, 83, 0.9);
+    cursor: pointer;
+}
+
+.video-box-header img {
+    width: 30px;
+}
+
+/* Video box */
+.video-container {
+    display: flex;
+    padding-left: 24px;
+    
+}
+.video-box{
+    position: relative;
+    padding: 24px 0;
+    margin-bottom: 8px;
+}
+
+.video-box video {
+    width: 395px;
+    height: 222px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.video-box a {
+    color: rgba(84, 83, 83, 0.9);
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.video-box a:hover {
+    text-decoration: underline;
+}
+
+.video-box img {
+    top: 110px;
+    right: -15px;
+    position: absolute;
+    width: 40px;
+}
+.video-box img:hover {
+    background-color: rgba(230, 230, 230, 0.4);
+    cursor: pointer;
+    border-radius: 5px;
+}
+.image-container {
+    position: relative;
+    display: flex;
+    padding-bottom: 48px;
+}
+
+.img-container:hover {
+    opacity: 0.8;
+}
+
+.image-container .img-container {
+    width: 185px;
+    height: 185px;
+    margin-left: 24px;
+}
+
+.special-image1 {
+    position: absolute;
+    width: 40px;
+    top: 70px;
+    right: -15px;
+}
+
+.special-image1:hover {
+    background-color: rgba(230, 230, 230, 0.4);
+    cursor: pointer;
+}
+
+/* Top cast */
+.video-edit {
+    display: flex;
+    align-items: center;
+    margin-left: 561px;
+    padding: 6px 4px 5px 0;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.video-edit:hover {
+    background-color: rgba(230, 230, 230, 0.4);
+}
+
+.video-box-actors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+}
+.video-box-actors div {
+    width: 394px;
+}
+
+.video-box-actors img {
+    width: 96px;
+    border-radius: 50%;
+}
+
+.actor {
+    display: flex;
+    align-items: center;
+}
+
+.actor img:hover {
+    opacity: 0.8;
+}
+
+.actor-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.actor-name p {
+    margin: 0 0 3px 0;
+    font-size: 1.1rem;
+}
+
+.actor-name span {
+    font-size: 1rem;
+    color: rgba(84, 83, 83, 0.9);
+}
+
+.actor-ul {
+    margin: 0 24px;
+    padding: 10px 0 0 0 ;
+    list-style-type: none;
+
+}
+
+.actor-ul li {
+    padding: 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.01rem;
+    display: flex;
+    align-items: center;
+}
+
+.special-li {
+    justify-content: space-between;
+}
+
+.special-li:hover {
+    background-color: rgba(204, 204, 204,0.2);
+    cursor: pointer;
+}
+
+.actor-ul a {
+    text-decoration: none;
+    color: rgb(87, 153, 239);
+}
+
+.actor-ul a:hover {
+    text-decoration: underline;
+}
+
+.actor-ul img {
+    width: 20px;
+}
+.actor-ul li:last-child{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Right-side */
+.white-menu-right {
+    margin-top: 24px;
+    width: 360px;
+    margin-left: 24px;
+}
+    
+.wonka-header {
+    display: flex;
+    padding: 0px 13px;
+    margin:24px 24px 24px 0;
+    border-left: 5px solid #DBA506;
+    align-items: center;
+}
+.wonka-box {
+    width: 360px;
+    height: 251px;
+}
+
+.wonka-header:hover strong {
+    color: rgba(84, 83, 83, 0.9);
+    cursor: pointer;
+}
+
+.wonka-header strong {
+    font-size: 1.8rem;
+    padding-right: 12px;
+}
+.wonka-box img {
+    width: 117px;
+    height: 251px;
+}
+
+.wonka-box img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.wonka-a a{
+    display: inline-block;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+    margin: 12px 0 6px 0;
+    font-weight: 400;
+}
+
+.wonka-a a:hover {
+    text-decoration: underline;
+}
+
+#wonka-href {
+    color: rgb(87, 153, 239);
+}
+
+.edtiriorial-list h3{
+    font-size: 1.4rem;
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+.edtiriorial-list span {
+    color: rgba(84, 83, 83, 0.9);
+    font-size: 1rem;
+}
+
+.edtiriorial-list {
+    margin-bottom: 24px;
+}
+.goodfellas-list {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 0;
+    padding: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.goodfellas-list div {
+    display: flex;
+    padding: 3px;
+}
+
+.goodfellas-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: 400;
+}
+
+.goodfellas-text-hover:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.goodfellas-text p {
+    font-size: 1rem;
+    margin: 0 0 6px 0;
+}
+
+.goodfellas-text span {
+    font-size: 0.8rem;
+    color: rgba(84, 83, 83, 0.9);
+}
+.goodfellas-list img {
+    width: 60px;
+}
+
+.wonka-top {
+    margin-top: 24px;
+}
+
+.wonka-flex {
+    margin: 12px 0;
+}
+.wonka-add {
+    color: rgba(84, 83, 83, 0.9);
+}
+
+.wonka-button {
+    margin-top: 8px;
+    padding: 10px;
+    width: 120px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wonka-button a {
+    text-decoration: none;
+    color: rgba(0 , 0, 0, 1);
+}
+
+.wonka-button img {
+    width: 20px;
+    padding-right: 5px;
+}
+
+.wonka-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
 }
